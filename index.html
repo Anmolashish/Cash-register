@@ -3,12 +3,25 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
+    <title>Cash register</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <h1 id="heading">Cash Register Project</h1>
+    <div id="main-div">
+      <div id="change-due"></div>
+      <label>Enter cash from customer</label>
+      <input id="cash" />
+      <button id="purchase-btn">Check</button>
+    </div>
+    <div id="remaining-div">
+      <div id="empty-cash-box">
+        <div id="price"></div>
+      </div>
+      <div id="remaining-cash"></div>
+    </div>
     <script src="script.js" async defer></script>
   </body>
 </html>
